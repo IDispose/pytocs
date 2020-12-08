@@ -2,6 +2,6 @@
 <Project Sdk="Microsoft.NET.Sdk" ToolsVersion="15.0">
   <PropertyGroup>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
-    <TargetFrameworks>netstandard2.0</TargetFrameworks>
+    <TargetFramework>net48</TargetFramework>
   </PropertyGroup>
 </Project>

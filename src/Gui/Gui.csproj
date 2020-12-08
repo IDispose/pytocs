@@ -1,9 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
-    <TargetFrameworks>netcoreapp2.1;net471</TargetFrameworks>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net48</TargetFramework>
     <AssemblyName>Pytocs.Gui</AssemblyName>
     <RootNamespace>Pytocs.Gui</RootNamespace>
+    <StartupObject>Pytocs.Gui.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Compile Update="**\*.xaml.cs">
